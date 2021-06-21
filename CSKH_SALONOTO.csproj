@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{76C2DF98-3975-45A7-8586-666CBD2EB284}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>CSKH_SALONOTO</RootNamespace>
+    <AssemblyName>CSKH_SALONOTO</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Class\Progress.cs" />
+    <Compile Include="Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main.Designer.cs">
+      <DependentUpon>Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QL DM\NCC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QL DM\NCC.Designer.cs">
+      <DependentUpon>NCC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QL DM\Xe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QL DM\Xe.Designer.cs">
+      <DependentUpon>Xe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QL NV\TTNV.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QL NV\TTNV.Designer.cs">
+      <DependentUpon>TTNV.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QLKH\FCSKH.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QLKH\FCSKH.Designer.cs">
+      <DependentUpon>FCSKH.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QLKH\FCSKHCT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QLKH\FCSKHCT.Designer.cs">
+      <DependentUpon>FCSKHCT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QLKH\HTCSKH.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QLKH\HTCSKH.Designer.cs">
+      <DependentUpon>HTCSKH.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QLKH\TTKH.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QLKH\TTKH.Designer.cs">
+      <DependentUpon>TTKH.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Main.resx">
+      <DependentUpon>Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="QL DM\NCC.resx">
+      <DependentUpon>NCC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QL DM\Xe.resx">
+      <DependentUpon>Xe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QL NV\TTNV.resx">
+      <DependentUpon>TTNV.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QLKH\FCSKH.resx">
+      <DependentUpon>FCSKH.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QLKH\FCSKHCT.resx">
+      <DependentUpon>FCSKHCT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QLKH\HTCSKH.resx">
+      <DependentUpon>HTCSKH.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QLKH\TTKH.resx">
+      <DependentUpon>TTKH.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

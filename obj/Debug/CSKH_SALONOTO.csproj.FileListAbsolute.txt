@@ -1,0 +1,15 @@
+D:\Workspace\Visual Studio\CSKH_SALONOTO\bin\Debug\CSKH_SALONOTO.exe
+D:\Workspace\Visual Studio\CSKH_SALONOTO\bin\Debug\CSKH_SALONOTO.pdb
+D:\Workspace\Visual Studio\CSKH_SALONOTO\obj\Debug\CSKH_SALONOTO.csprojAssemblyReference.cache
+D:\Workspace\Visual Studio\CSKH_SALONOTO\obj\Debug\CSKH_SALONOTO.Main.resources
+D:\Workspace\Visual Studio\CSKH_SALONOTO\obj\Debug\CSKH_SALONOTO.Properties.Resources.resources
+D:\Workspace\Visual Studio\CSKH_SALONOTO\obj\Debug\CSKH_SALONOTO.csproj.GenerateResource.cache
+D:\Workspace\Visual Studio\CSKH_SALONOTO\obj\Debug\CSKH_SALONOTO.exe
+D:\Workspace\Visual Studio\CSKH_SALONOTO\obj\Debug\CSKH_SALONOTO.pdb
+D:\Workspace\Visual Studio\CSKH_SALONOTO\obj\Debug\CSKH_SALONOTO.QL_DM.NCC.resources
+D:\Workspace\Visual Studio\CSKH_SALONOTO\obj\Debug\CSKH_SALONOTO.QL_DM.Xe.resources
+D:\Workspace\Visual Studio\CSKH_SALONOTO\obj\Debug\CSKH_SALONOTO.QL_NV.TTNV.resources
+D:\Workspace\Visual Studio\CSKH_SALONOTO\obj\Debug\CSKH_SALONOTO.QLKH.FCSKH.resources
+D:\Workspace\Visual Studio\CSKH_SALONOTO\obj\Debug\CSKH_SALONOTO.QLKH.FCSKHCT.resources
+D:\Workspace\Visual Studio\CSKH_SALONOTO\obj\Debug\CSKH_SALONOTO.QLKH.HTCSKH.resources
+D:\Workspace\Visual Studio\CSKH_SALONOTO\obj\Debug\CSKH_SALONOTO.QLKH.TTKH.resources
